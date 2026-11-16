@@ -1,0 +1,1328 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- ==========================================================================
+       SEO
+       ========================================================================== -->
+  <title>Hotel Revenue Management Company in India | RevAlpha</title>
+  <meta name="description" content="RevAlpha is a hotel revenue management company in India: dynamic pricing, OTA management, demand forecasting and weekly reporting. Get a free revenue plan.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <!-- REPLACE: the final URL this landing page is published at -->
+  <link rel="canonical" href="https://revalpha.co/free-revenue-plan/">
+  <meta name="theme-color" content="#07162b">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Open Graph / Twitter Card -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RevAlpha">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Turn Empty Rooms Into Higher Revenue | RevAlpha">
+  <meta property="og:description" content="Dynamic pricing, OTA management, demand forecasting and weekly revenue reporting for hotels, resorts, villas and homestays in India.">
+  <!-- REPLACE: same URL as the canonical tag -->
+  <meta property="og:url" content="https://revalpha.co/free-revenue-plan/">
+  <!-- REPLACE: upload assets/og-image.jpg to your host and use its absolute URL here -->
+  <meta property="og:image" content="https://revalpha.co/free-revenue-plan/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="RevAlpha: Turn Empty Rooms Into Higher Revenue">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Turn Empty Rooms Into Higher Revenue | RevAlpha">
+  <meta name="twitter:description" content="Dynamic pricing, OTA management, demand forecasting and weekly revenue reporting for hotels, resorts, villas and homestays in India.">
+  <meta name="twitter:image" content="https://revalpha.co/free-revenue-plan/assets/og-image.jpg">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- ==========================================================================
+       PERFORMANCE: connection hints + critical preloads
+       IMAGES: photos are currently served from revalpha.co (RevAlpha's own site).
+       For best PageSpeed, copy them into /assets/img, export 640/1280/1920px
+       AVIF + WebP versions, and update the src/srcset attributes below.
+       ========================================================================== -->
+  <link rel="preconnect" href="https://revalpha.co">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Hero image (desktop only; mobile hero is pure CSS so LCP stays fast) -->
+  <link rel="preload" as="image" href="https://revalpha.co/assets/images/Solutions/luxury.webp" type="image/webp" media="(min-width: 1024px)" fetchpriority="high">
+
+  <!-- Fonts: non-blocking. For production, self-host the woff2 files and add
+       <link rel="preload" as="font" type="font/woff2" crossorigin href="..."> -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400..800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400..800&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400..800&display=swap">
+  </noscript>
+
+  <script>
+    // Flags JS + queues analytics events before the (deferred) tag scripts load.
+    document.documentElement.classList.add('js');
+    window.dataLayer = window.dataLayer || [];
+  </script>
+
+  <!-- ==========================================================================
+       CRITICAL CSS (header + hero, everything visible on first paint).
+       Everything else lives in styles.css.
+       ========================================================================== -->
+  <style>
+    @font-face{font-family:"Manrope Fallback";src:local("Arial");size-adjust:103.76%;ascent-override:102.74%;descent-override:28.91%;line-gap-override:0%}
+    @font-face{font-family:"Cormorant Fallback";src:local("Georgia"),local("Times New Roman");size-adjust:86%;ascent-override:107%;descent-override:33%;line-gap-override:0%}
+    :root{
+      --navy:#0b1f3a;--navy-deep:#07162b;--navy-ink:#050f1f;--slate-blue:#163a63;
+      --paper:#fdfcf9;--ivory:#f6f3ec;--sand:#efe9dc;--stone:#e2dccd;
+      --ink:#0b1f3a;--slate:#56677a;--gold:#86620f;--gold-bright:#d9b85c;--champagne:#f1e3b3;
+      --mint:#3fbf8f;--coral:#e0705a;--coral-ink:#b23d26;
+      --on-dark:#fff;--on-dark-2:rgba(255,255,255,.74);--on-dark-3:rgba(255,255,255,.56);
+      --line-dark:rgba(255,255,255,.12);--line-light:rgba(11,31,58,.1);
+      --font-sans:"Manrope","Manrope Fallback",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+      --font-serif:"Cormorant Garamond","Cormorant Fallback",Georgia,"Times New Roman",serif;
+      --container:1320px;--gutter:clamp(16px,5vw,64px);
+      --r-s:12px;--r-m:20px;--r-l:28px;--r-xl:36px;
+      --ease:cubic-bezier(.22,1,.36,1);--ease-io:cubic-bezier(.65,0,.35,1);
+      --header-h:72px;
+      --gold-grad:linear-gradient(110deg,#c9a447 0%,#ecd590 38%,#d9b85c 62%,#b8913a 100%);
+    }
+    @media (min-width:1024px){:root{--header-h:84px}}
+    *,*::before,*::after{box-sizing:border-box}
+    html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:calc(var(--header-h) + 12px)}
+    @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+    body{margin:0;background:var(--navy-deep);color:var(--ink);font-family:var(--font-sans);font-size:1rem;line-height:1.65;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;font-variant-numeric:lining-nums;overflow-x:hidden}
+    @supports (overflow:clip){body{overflow-x:clip}}
+    img,svg,video{display:block;max-width:100%}
+    img{height:auto}
+    a{color:inherit}
+    button,input,select,textarea{font:inherit;color:inherit}
+    h1,h2,h3,p,figure,blockquote,ul,ol{margin:0}
+    ul[role=list],ol[role=list]{list-style:none;padding:0}
+    .container{width:100%;max-width:calc(var(--container) + var(--gutter)*2);margin-inline:auto;padding-inline:var(--gutter)}
+    .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .skip-link{position:fixed;left:16px;top:-80px;z-index:100;padding:12px 18px;border-radius:999px;background:var(--gold-bright);color:var(--navy-ink);font-weight:700;text-decoration:none;transition:top .2s}
+    .skip-link:focus{top:12px}
+    :focus-visible{outline:3px solid var(--gold-bright);outline-offset:3px;border-radius:6px}
+    .icon{width:1.25em;height:1.25em;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+    .icon-fill{fill:currentColor;stroke:none}
+
+    /* Buttons */
+    .btn{--pad-y:.95rem;--pad-x:1.5rem;--hover-t:transform .5s var(--ease),translate .6s var(--ease),box-shadow .5s var(--ease),background-color .3s,background-position .9s var(--ease),border-color .3s,color .3s;position:relative;display:inline-flex;align-items:center;justify-content:center;gap:.6rem;min-height:48px;padding:var(--pad-y) var(--pad-x);border:1px solid transparent;border-radius:999px;font-weight:700;font-size:.975rem;letter-spacing:.01em;line-height:1.2;text-decoration:none;cursor:pointer;white-space:nowrap;transition:var(--hover-t);-webkit-tap-highlight-color:transparent}
+    .btn .icon{transition:transform .5s var(--ease)}
+    .btn:hover .icon-arrow{transform:translateX(4px)}
+    .btn-gold{color:var(--navy-ink);background:var(--gold-grad);background-size:220% 100%;background-position:0 0;box-shadow:0 14px 34px -14px rgba(217,184,92,.65),inset 0 1px 0 rgba(255,255,255,.45)}
+    .btn-gold:hover{background-position:100% 0;box-shadow:0 18px 44px -14px rgba(217,184,92,.85),inset 0 1px 0 rgba(255,255,255,.5)}
+    .btn-glass{color:#fff;background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.2);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+    .btn-glass:hover{background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.34)}
+    .btn-lg{--pad-y:1.1rem;--pad-x:1.8rem;font-size:1.02rem;min-height:56px}
+    .btn-sm{--pad-y:.7rem;--pad-x:1.15rem;font-size:.9rem;min-height:44px}
+    .btn-block{width:100%}
+    .btn-wa .icon{color:#3fd47a}
+    .link-call{display:inline-flex;align-items:center;gap:.55rem;min-height:44px;font-weight:600;text-decoration:none;color:var(--on-dark-2);transition:color .3s}
+    .link-call:hover{color:#fff}
+    .link-call .icon{color:var(--gold-bright)}
+
+    /* Header */
+    .site-header{position:fixed;inset:0 0 auto;z-index:50;height:var(--header-h);display:flex;align-items:center;color:#fff;transition:background-color .5s var(--ease),box-shadow .5s var(--ease),-webkit-backdrop-filter .5s,backdrop-filter .5s}
+    .site-header::after{content:"";position:absolute;inset:auto 0 0;height:1px;background:var(--line-dark);opacity:0;transition:opacity .5s}
+    .site-header.is-scrolled{background:rgba(7,22,43,.78);-webkit-backdrop-filter:blur(18px) saturate(150%);backdrop-filter:blur(18px) saturate(150%);box-shadow:0 18px 40px -30px rgba(0,0,0,.6)}
+    .site-header.is-scrolled::after{opacity:1}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .brand{display:inline-flex;align-items:center;text-decoration:none;flex:none}
+    .brand-logo{width:auto;height:30px}
+    @media (min-width:1024px){.brand-logo{height:36px}}
+    .nav{display:none}
+    .nav ul{display:flex;gap:clamp(1rem,2vw,2.2rem);padding:0;margin:0;list-style:none}
+    .nav a{position:relative;display:inline-block;padding:.4rem 0;font-size:.92rem;font-weight:600;color:var(--on-dark-2);text-decoration:none;transition:color .3s}
+    .nav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--gold-bright);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+    .nav a:hover{color:#fff}
+    .nav a:hover::after{transform:scaleX(1);transform-origin:left}
+    .header-actions{display:flex;align-items:center;gap:.5rem}
+    .icon-btn{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid var(--line-dark);background:rgba(255,255,255,.05);color:#fff;text-decoration:none;transition:background-color .3s,border-color .3s,transform .4s var(--ease)}
+    .icon-btn:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.3)}
+    .icon-btn--wa .icon{color:#3fd47a}
+    .header-phone,.header-cta{display:none}
+    @media (min-width:1100px){.nav{display:block}}
+    @media (min-width:1024px){
+      .header-cta{display:inline-flex}
+      .header-actions .icon-btn--call{display:none}
+      .header-phone{display:inline-flex;align-items:center;gap:.5rem;margin-right:.5rem;font-weight:600;font-size:.92rem;color:var(--on-dark-2);text-decoration:none;transition:color .3s}
+      .header-phone:hover{color:#fff}
+      .header-phone .icon{color:var(--gold-bright)}
+    }
+    @media (max-width:1279px){.header-phone{display:none}}
+    .progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--gold-grad);transform-origin:0 50%;transform:scaleX(0);opacity:0;transition:opacity .4s}
+    .is-scrolled .progress{opacity:1}
+    @supports (animation-timeline:scroll()){.progress{animation:progress linear both;animation-timeline:scroll(root)}}
+    @keyframes progress{to{transform:scaleX(1)}}
+
+    /* Hero */
+    .hero{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:center;min-height:100vh;min-height:100svh;padding:calc(var(--header-h) + clamp(28px,6vw,56px)) 0 clamp(56px,8vw,96px);background:var(--navy-deep);color:#fff}
+    .hero-media{position:absolute;inset:0;z-index:-3;display:none;overflow:hidden}
+    .hero-media img{position:absolute;inset:-6% 0 0;width:100%;height:112%;object-fit:cover;object-position:60% 50%;will-change:transform}
+    .hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,15,31,.96) 0%,rgba(5,15,31,.88) 40%,rgba(7,22,43,.68) 66%,rgba(7,22,43,.78) 100%),linear-gradient(180deg,rgba(5,15,31,.7) 0%,rgba(5,15,31,0) 26%,rgba(5,15,31,0) 62%,rgba(5,15,31,.95) 100%)}
+    @media (min-width:1024px){.hero-media{display:block}}
+    .hero-mesh{position:absolute;inset:0;z-index:-2;overflow:hidden;pointer-events:none}
+    .hero-mesh span{position:absolute;border-radius:50%;opacity:.9;will-change:transform}
+    .hero-mesh .b1{width:90vmax;height:90vmax;left:-40vmax;top:-45vmax;background:radial-gradient(closest-side,rgba(22,58,99,.95),rgba(22,58,99,0))}
+    .hero-mesh .b2{width:70vmax;height:70vmax;right:-35vmax;top:10vmax;background:radial-gradient(closest-side,rgba(217,184,92,.28),rgba(217,184,92,0))}
+    .hero-mesh .b3{width:60vmax;height:60vmax;left:-10vmax;bottom:-40vmax;background:radial-gradient(closest-side,rgba(38,120,128,.32),rgba(38,120,128,0))}
+    @media (min-width:1024px){.hero-mesh{mix-blend-mode:screen;opacity:.55}}
+    .grain{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.08;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+    .hero-grid{display:grid;gap:clamp(40px,6vw,64px);align-items:center}
+    @media (min-width:1024px){.hero-grid{grid-template-columns:minmax(0,1.12fr) minmax(400px,.88fr);gap:clamp(40px,5vw,88px)}}
+    .hero-copy{min-width:0}
+    .eyebrow{display:inline-flex;align-items:center;gap:.75rem;font-family:var(--font-sans);font-size:.75rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;line-height:1.4}
+    .eyebrow::before{content:"";width:28px;height:1px;background:currentColor;opacity:.7}
+    .hero-title{font-family:var(--font-serif);font-weight:500;font-size:clamp(1.75rem,1.3rem + 2vw,2.1875rem);line-height:1.12;letter-spacing:-.01em;color:#fff}
+    @media (min-width:1024px){.hero-title{font-size:2.1875rem}} /* 35px on desktop */
+    .hero-title .eyebrow{display:flex;margin-bottom:1rem;color:var(--gold-bright)}
+    .hero-title .w{display:inline-block;overflow:hidden;padding:.06em .02em .12em;margin:-.06em -.02em -.12em;vertical-align:top}
+    .hero-title .w>span{display:inline-block}
+    .hero-title em{font-style:italic;font-weight:500;background:var(--gold-grad);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent}
+    .hero-sub{max-width:36rem;margin-top:1.5rem;font-size:clamp(1.02rem,.95rem + .35vw,1.18rem);line-height:1.6;color:var(--on-dark-2)}
+    .hero-ctas{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem 1rem;margin-top:2rem}
+    @media (max-width:599px){.hero-ctas .btn{width:100%}.hero-ctas .link-call{width:100%;justify-content:center}}
+    .trust{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin-top:1.75rem;padding:0;list-style:none;font-size:.84rem;color:var(--on-dark-3)}
+    .trust li{display:inline-flex;align-items:center;gap:.9rem}
+    .trust li+li::before{content:"";width:4px;height:4px;border-radius:50%;background:var(--gold-bright);opacity:.8}
+    .trust strong{color:#fff;font-weight:700}
+    @media (max-width:599px){.trust li:first-child{flex-basis:100%}.trust li:nth-child(2)::before{display:none}}
+
+    /* Hero dashboard (illustrative) */
+    .dash{position:relative;margin-top:2.5rem;max-width:560px;padding:18px;border-radius:var(--r-l);background:linear-gradient(160deg,rgba(255,255,255,.1),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.14);box-shadow:0 40px 80px -40px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.12);-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%)}
+    .dash-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;font-size:.78rem;color:var(--on-dark-2)}
+    .dash-title{display:inline-flex;align-items:center;gap:.5rem;font-weight:700;letter-spacing:.04em;color:#fff}
+    .dash-live{width:8px;height:8px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 0 rgba(63,191,143,.6)}
+    .dash-tabs{display:flex;gap:4px;padding:3px;border-radius:999px;background:rgba(0,0,0,.25)}
+    .dash-tabs span{padding:.25rem .6rem;border-radius:999px;font-size:.7rem;font-weight:600;color:var(--on-dark-3)}
+    .dash-tabs .is-on{background:rgba(255,255,255,.12);color:#fff}
+    .dash-body{display:grid;gap:14px;margin-top:14px}
+    @media (min-width:480px){.dash-body{grid-template-columns:1.5fr 1fr;align-items:stretch}}
+    .dash-body>*{min-width:0}
+    .dash-chart{width:100%;height:auto;aspect-ratio:410/150;overflow:visible}
+    .dash-kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0;padding:0;list-style:none}
+    @media (min-width:480px){.dash-kpis{grid-template-columns:1fr}}
+    .kpi{display:flex;flex-direction:column;justify-content:center;gap:2px;padding:10px 12px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08)}
+    @media (min-width:480px){.kpi{flex-direction:row;align-items:center;justify-content:space-between}}
+    .kpi-label{font-size:.72rem;font-weight:600;color:var(--on-dark-3);line-height:1.3}
+    .kpi-val{display:inline-flex;align-items:center;gap:.25rem;font-weight:800;font-size:1.05rem;color:var(--mint);font-variant-numeric:tabular-nums}
+    @media (max-width:379px){.dash{padding:14px}.dash-tabs span{padding:.25rem .45rem}.kpi{padding:8px}.kpi-val{font-size:.95rem}.kpi-val .icon{display:none}}
+    .dash-note{margin-top:12px;font-size:.72rem;letter-spacing:.02em;color:var(--on-dark-3)}
+    .dash-bars rect{fill:rgba(255,255,255,.07)}
+    .spinner{display:none}
+
+    /* Hero form (desktop only) */
+    .hero-panel{display:none}
+    @media (min-width:1024px){.hero-panel{display:block}}
+    .form-card{position:relative;border-radius:var(--r-xl);padding:clamp(22px,2.4vw,34px)}
+    .form-card--glass{background:linear-gradient(165deg,rgba(14,36,66,.82),rgba(7,22,43,.86));border:1px solid rgba(255,255,255,.14);box-shadow:0 50px 100px -40px rgba(0,0,0,.75),inset 0 1px 0 rgba(255,255,255,.1);-webkit-backdrop-filter:blur(22px) saturate(140%);backdrop-filter:blur(22px) saturate(140%)}
+    .form-card--glass::before{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1px;background:linear-gradient(140deg,rgba(217,184,92,.7),rgba(217,184,92,0) 35%,rgba(217,184,92,0) 70%,rgba(217,184,92,.35));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+    .form-title{font-family:var(--font-serif);font-weight:500;font-size:clamp(1.7rem,1.2rem + 1vw,2.15rem);line-height:1.1}
+    .form-lede{margin-top:.6rem;font-size:.9rem;line-height:1.55;color:var(--on-dark-2)}
+    .assure{display:flex;flex-wrap:wrap;gap:.4rem .9rem;margin:.9rem 0 0;padding:0;list-style:none;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-bright)}
+    .assure li{display:inline-flex;align-items:center;gap:.4rem}
+    .assure .icon{width:14px;height:14px;stroke-width:2.2}
+
+    /* Shared form fields (hero + lead section) */
+    .lead-form{--f-bg:rgba(255,255,255,.05);--f-bg-focus:rgba(255,255,255,.09);--f-border:rgba(255,255,255,.16);--f-text:#fff;--f-label:rgba(255,255,255,.78);--f-ph:rgba(255,255,255,.4);--f-err:#ff9b86;margin-top:1.25rem}
+    .form-grid{display:grid;grid-template-columns:1fr;gap:14px}
+    @media (min-width:560px){.form-grid{grid-template-columns:1fr 1fr}}
+    .field{display:flex;flex-direction:column;gap:6px;min-width:0}
+    .field--full{grid-column:1/-1}
+    .field label,.field .label{font-size:.8rem;font-weight:700;letter-spacing:.01em;color:var(--f-label)}
+    .field .opt{font-weight:500;opacity:.7}
+    .field input,.field select,.field textarea{width:100%;min-height:48px;padding:.75rem .95rem;border-radius:var(--r-s);border:1px solid var(--f-border);background:var(--f-bg);color:var(--f-text);font-size:1rem;line-height:1.3;transition:border-color .3s,background-color .3s,box-shadow .3s;-webkit-appearance:none;appearance:none}
+    .field textarea{min-height:96px;resize:vertical}
+    .field select{padding-right:2.5rem;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2.5 4.5 6 8l3.5-3.5' fill='none' stroke='%23d9b85c' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .95rem center;cursor:pointer}
+    .field select option{color:#0b1f3a;background:#fff}
+    .field ::placeholder{color:var(--f-ph);opacity:1}
+    .field input:hover,.field select:hover,.field textarea:hover{border-color:color-mix(in srgb,var(--f-border),#d9b85c 35%)}
+    .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold-bright);background-color:var(--f-bg-focus);box-shadow:0 0 0 4px rgba(217,184,92,.2)}
+    .field [aria-invalid=true]{border-color:var(--f-err);box-shadow:0 0 0 3px color-mix(in srgb,var(--f-err),transparent 80%)}
+    .field-error{min-height:0;font-size:.78rem;font-weight:600;line-height:1.35;color:var(--f-err)}
+    .field-error:empty{display:none}
+    .lead-form--compact .form-grid{gap:12px}
+    .lead-form--compact .field input,.lead-form--compact .field select{min-height:46px;padding-block:.65rem}
+    .consent{display:flex;align-items:flex-start;gap:.7rem;margin-top:14px;font-size:.8rem;line-height:1.5;color:var(--f-label);cursor:pointer}
+    .consent input{flex:none;width:20px;height:20px;margin:1px 0 0;accent-color:var(--gold-bright);cursor:pointer}
+    .consent-wrap .field-error{margin:6px 0 0 30px}
+    .hp{position:absolute!important;left:-10000px!important;width:1px;height:1px;overflow:hidden}
+    .form-actions{margin-top:18px}
+    .form-foot{display:flex;align-items:center;justify-content:center;gap:.4rem;margin-top:12px;font-size:.78rem;line-height:1.5;color:var(--on-dark-2);text-align:center}
+    .form-foot .icon{width:15px;height:15px;color:#3fd47a}
+
+    /* Reveal system (JS only; disabled for reduced motion) */
+    /* Reveal uses the `translate` property so it never fights hover `transform`s.
+       Components add their own hover transitions through --hover-t. */
+    .js [data-reveal]{opacity:0;translate:0 32px;transition:opacity 1s var(--ease) calc(var(--d,0) * 90ms),translate 1.2s var(--ease) calc(var(--d,0) * 90ms),var(--hover-t,color 0s)}
+    .js [data-reveal].is-in{opacity:1;translate:none}
+
+    /* Mobile sticky CTA (hidden until first scroll) */
+    .mobile-cta{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;gap:10px;padding:10px var(--gutter) calc(10px + env(safe-area-inset-bottom));background:rgba(7,22,43,.86);-webkit-backdrop-filter:blur(18px) saturate(150%);backdrop-filter:blur(18px) saturate(150%);border-top:1px solid var(--line-dark);transform:translateY(110%);visibility:hidden;transition:transform .6s var(--ease),visibility 0s .6s}
+    .mobile-cta.is-visible{transform:none;visibility:visible;transition:transform .6s var(--ease),visibility 0s}
+    @media (min-width:1024px){.mobile-cta{display:none}}
+
+    /* Hero intro motion */
+    @media (prefers-reduced-motion:no-preference){
+      .hero-media img{animation:kenburns 26s var(--ease) both}
+      .hero-mesh .b1{animation:drift1 22s ease-in-out infinite alternate}
+      .hero-mesh .b2{animation:drift2 26s ease-in-out infinite alternate}
+      .hero-mesh .b3{animation:drift3 30s ease-in-out infinite alternate}
+      .hero-title .w>span{animation:wordUp 1.15s var(--ease) both;animation-delay:calc(var(--i) * 70ms + 80ms)}
+      .hero-title .eyebrow{animation:fadeUp 1s var(--ease) both}
+      .hero-title em{animation:wordUp 1.15s var(--ease) both,shimmer 6s 1.6s ease-in-out infinite}
+      .hero-sub,.hero-ctas,.trust,.dash,.hero-panel{animation:fadeUp 1.1s var(--ease) both}
+      .hero-sub{animation-delay:.45s}.hero-ctas{animation-delay:.6s}.trust{animation-delay:.75s}
+      .dash{animation-delay:.85s}.hero-panel{animation-delay:.5s}
+      .dash-live{animation:pulse 2.2s ease-out infinite}
+      .site-header{animation:fadeDown 1s .1s var(--ease) both}
+      .dash-line{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.4s 1.2s var(--ease-io) forwards}
+      .dash-area{opacity:0;animation:fadeIn 1.6s 2s ease forwards}
+      .dash-base{opacity:0;animation:fadeIn 1s 1s ease forwards}
+      .dash-bars rect{transform-box:fill-box;transform-origin:50% 100%;animation:barUp 1.1s var(--ease) both;animation-delay:calc(var(--i) * 55ms + 1s)}
+      .dash-end{opacity:0;animation:fadeIn .5s 3.3s forwards}
+      .dash-end-halo{opacity:0;transform-box:fill-box;transform-origin:center;animation:halo 2.6s 3.4s ease-out infinite}
+      .kpi{animation:fadeUp .9s var(--ease) both}
+      .kpi:nth-child(1){animation-delay:1.5s}.kpi:nth-child(2){animation-delay:1.65s}.kpi:nth-child(3){animation-delay:1.8s}
+    }
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes fadeIn{to{opacity:1}}
+    @keyframes barUp{from{transform:scaleY(0)}to{transform:none}}
+    @keyframes halo{0%{opacity:.45;transform:scale(.6)}100%{opacity:0;transform:scale(2.4)}}
+    @keyframes wordUp{from{transform:translate3d(0,105%,0) rotate(2deg)}to{transform:none}}
+    @keyframes fadeUp{from{opacity:0;transform:translate3d(0,24px,0)}to{opacity:1;transform:none}}
+    @keyframes fadeDown{from{opacity:0;transform:translate3d(0,-16px,0)}to{opacity:1;transform:none}}
+    @keyframes kenburns{from{transform:scale(1.14)}to{transform:scale(1)}}
+    @keyframes shimmer{0%,100%{background-position:0 0}50%{background-position:100% 0}}
+    @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(63,191,143,.55)}80%,100%{box-shadow:0 0 0 10px rgba(63,191,143,0)}}
+    @keyframes drift1{to{transform:translate3d(12vmax,8vmax,0) scale(1.1)}}
+    @keyframes drift2{to{transform:translate3d(-10vmax,6vmax,0) scale(.9)}}
+    @keyframes drift3{to{transform:translate3d(14vmax,-8vmax,0) scale(1.15)}}
+    @media (prefers-reduced-motion:reduce){
+      .js [data-reveal]{opacity:1;translate:none;transition:none}
+      *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+    }
+  </style>
+
+  <!-- Main stylesheet (below-the-fold styles), loaded without blocking render.
+       Must stay AFTER the critical <style> block so its rules win the cascade. -->
+  <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="styles.css"></noscript>
+
+  <!-- ==========================================================================
+       STRUCTURED DATA (ProfessionalService + FAQPage)
+       Keep FAQ answers here identical to the visible FAQ text.
+       ========================================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://revalpha.co/#business",
+        "name": "RevAlpha",
+        "alternateName": "RevAlpha by Hospitality Minds",
+        "slogan": "Revenue intelligence for independent hotels.",
+        "description": "Hotel revenue management company in India offering dynamic pricing, OTA management, demand forecasting and weekly revenue reporting for hotels, resorts, villas and homestays.",
+        "url": "https://revalpha.co/",
+        "logo": "https://revalpha.co/assets/img/logo-wordmark-navy.png",
+        "image": "https://revalpha.co/assets/images/Solutions/luxury.webp",
+        "telephone": "+91-8655556688",
+        "email": "nilesh@hospitalityminds.com",
+        "priceRange": "₹₹",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Star Plaza, 206, Mahatma Gandhi Rd, opposite Sanjay Restaurant, above MM Mithaiwala, Chinchpada, Borivali East",
+          "addressLocality": "Mumbai",
+          "addressRegion": "Maharashtra",
+          "postalCode": "400066",
+          "addressCountry": "IN"
+        },
+        "areaServed": { "@type": "Country", "name": "India" },
+        "parentOrganization": { "@type": "Organization", "name": "Hospitality Minds Private Limited" },
+        "knowsAbout": ["Hotel revenue management", "Dynamic pricing for hotels", "OTA management for hotels", "Demand forecasting", "Revenue management for resorts", "Airbnb listing management"],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8655556688",
+          "email": "nilesh@hospitalityminds.com",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"]
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/revalpha-hotel-revenue-intelligence/",
+          "https://www.instagram.com/revalpha.hotels/",
+          "https://www.facebook.com/profile.php?id=61594840647563"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is hotel revenue management?", "acceptedAnswer": { "@type": "Answer", "text": "Hotel revenue management means selling the right room, to the right guest, at the right price, through the right channel and at the right time. In practice that covers dynamic pricing for hotels, OTA management, demand forecasting for seasons, festivals and events, and tracking ADR, occupancy and RevPAR, so every rate decision is backed by data. RevAlpha does this for you as an outsourced revenue management team." } },
+          { "@type": "Question", "name": "Do you work with small hotels and homestays?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Alongside resorts, boutique hotels and hotel groups, we work with budget hotels of 10–20 rooms, villas and homestays. For smaller properties we focus on OTA setup, rate setup, Airbnb and OTA listing management and simple promotions that help fill your calendar." } },
+          { "@type": "Question", "name": "Which OTAs do you support?", "acceptedAnswer": { "@type": "Answer", "text": "We optimise and manage listings on Booking.com, MakeMyTrip, Agoda and Airbnb, along with other major channels such as Expedia, Goibibo, Cleartrip and Google Hotels. If your property is not live yet, our OTA listing and onboarding service sets it up correctly from the start." } },
+          { "@type": "Question", "name": "How quickly can we start?", "acceptedAnswer": { "@type": "Answer", "text": "Share your details through the form or on WhatsApp and our revenue team will reply within one business day with a no-obligation recommendation. Once you decide to go ahead, we confirm an onboarding plan based on your property, your channels and your current technology setup." } },
+          { "@type": "Question", "name": "Do you guarantee results?", "acceptedAnswer": { "@type": "Answer", "text": "No, and be careful of anyone who does. Revenue depends on your market, product, reviews and demand. What we commit to is a disciplined process: demand-led pricing, active OTA management and clear weekly reporting, so you can see exactly what is changing and why. The figures on this page are typical first-quarter results and are illustrative, not a promise." } },
+          { "@type": "Question", "name": "What does the free revenue plan include?", "acceptedAnswer": { "@type": "Answer", "text": "Based on what you tell us about your property, our revenue team sends an honest, no-obligation recommendation: where you are likely losing revenue (pricing, OTA visibility, channel mix or reporting), what to fix first, and which RevAlpha plan fits: Express Setup, Standard, Gold or Platinum." } },
+          { "@type": "Question", "name": "Do you work with hotels outside Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We are based in Mumbai and work with hotels, resorts, villas and homestays across India. Hospitality Minds has marketed 800+ hotels across 48 cities in 4 countries." } },
+          { "@type": "Question", "name": "Can you help with channel manager and booking-engine selection?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Our hotel technology advisory is vendor-neutral: we help you choose and set up the right channel manager, PMS and booking engine for your property, so your rates and inventory stay in sync across every channel." } }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Analytics (GTM, GA4, Meta Pixel, Google Ads) are loaded by script.js.
+       Set the IDs in the CONFIG block at the top of script.js. -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- REPLACE GTM-XXXXXXX: Google Tag Manager (noscript fallback) -->
+  <!--
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  -->
+  <!-- REPLACE 000000000000000: Meta Pixel (noscript fallback) -->
+  <!--
+  <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=000000000000000&ev=PageView&noscript=1"></noscript>
+  -->
+
+  <!-- Icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7.4 3.5H4.9c-.8 0-1.5.7-1.4 1.5.6 8 7.5 14.9 15.5 15.5.8.1 1.5-.6 1.5-1.4v-2.5l-3.6-1.7-1.9 1.9a13 13 0 0 1-6.8-6.8l1.9-1.9-1.7-3.6z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M7 14l5-5 5 5"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path class="icon-fill" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.11.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.27-.2-.57-.35zM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <!-- Problem icons -->
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/><path d="M12 11l3 3m0-3v3h-3"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M2 18V6M2 14h20v4M22 14v-2a3 3 0 0 0-3-3h-8v5"/><circle cx="6.5" cy="10.5" r="2"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4M8.5 11h5"/></symbol>
+    <symbol id="i-eye-off" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M2 20h20"/><path d="m15 4 6 6m0-6-6 6"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-2.6-6.1L20.5 8.5"/><path d="M20.5 3.5v5h-5"/><path d="M9 12h6"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M8 14h.01M12 14h.01M16 14h.01M8 17.5h.01M12 17.5h.01"/></symbol>
+    <!-- Service icons -->
+    <symbol id="i-trend" viewBox="0 0 24 24"><path d="m3 17 6-6 4 4 8-8"/><path d="M14 7h7v7"/></symbol>
+    <symbol id="i-forecast" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3"/><path d="m14 13 5-6" stroke-dasharray="2 2.5"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5z"/><path d="m3 13 9 5 9-5"/><path d="m3 17.5 9 5 9-5" opacity=".5"/></symbol>
+    <symbol id="i-radar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/><path d="M12 12 18.5 5.5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-report" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 17v-3M12 17V9M16 17v-5"/></symbol>
+    <symbol id="i-chip" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/></symbol>
+    <symbol id="i-manager" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/><path d="m12 14 1 2-1 3-1-3 1-2z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ======================================================================
+       HEADER
+       ====================================================================== -->
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="RevAlpha, back to top">
+        <!-- REPLACE (optional): copy the logo into /assets and point to it locally -->
+        <img class="brand-logo" src="https://revalpha.co/assets/img/logo-wordmark.png" width="784" height="203" alt="RevAlpha" decoding="async">
+      </a>
+
+      <nav class="nav" aria-label="Page sections">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#hotel-types">Hotel types</a></li>
+          <li><a href="#results">Results</a></li>
+          <li><a href="#why">Why RevAlpha</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- REPLACE: phone number (also in CONFIG.phone in script.js) -->
+        <a class="header-phone" href="tel:+918655556688" data-track="call" data-location="header">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>+91 8655556688
+        </a>
+        <a class="icon-btn icon-btn--call" href="tel:+918655556688" aria-label="Call +91 8655556688" data-track="call" data-location="header">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+        </a>
+        <!-- REPLACE: WhatsApp link. All [data-wa] links are rebuilt from CONFIG.whatsapp in script.js -->
+        <a class="icon-btn icon-btn--wa" href="https://wa.me/919653128482?text=Hi%20RevAlpha%2C%20I%27d%20like%20to%20know%20more%20about%20hotel%20revenue%20management." target="_blank" rel="noopener" aria-label="WhatsApp Us Now" data-wa data-location="header">
+          <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+        </a>
+        <a class="btn btn-gold btn-sm header-cta" href="#get-plan" data-cta="header">Get a Free Revenue Plan</a>
+      </div>
+    </div>
+    <span class="progress" aria-hidden="true"></span>
+  </header>
+
+  <main id="main">
+    <!-- ====================================================================
+         1. HERO
+         ==================================================================== -->
+    <section class="hero" id="top" aria-labelledby="hero-title" data-hero>
+      <div class="hero-media" aria-hidden="true">
+        <!-- REPLACE: hero image. Loaded on desktop only (>=1024px). -->
+        <picture>
+          <source media="(min-width: 1024px)" srcset="https://revalpha.co/assets/images/Solutions/luxury.webp" type="image/webp">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" width="1920" height="1080" fetchpriority="high" decoding="async" data-parallax="0.18">
+        </picture>
+      </div>
+      <div class="hero-mesh" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 class="hero-title" id="hero-title">
+            <span class="eyebrow">Hotel Revenue Management Company in India</span>
+            <span class="w"><span style="--i:0">Turn</span></span>
+            <span class="w"><span style="--i:1">Empty</span></span>
+            <span class="w"><span style="--i:2">Rooms</span></span><br>
+            <span class="w"><span style="--i:3">Into</span></span>
+            <em class="w"><span style="--i:4">Higher</span></em>
+            <em class="w"><span style="--i:5">Revenue</span></em>
+          </h1>
+
+          <p class="hero-sub">Dynamic pricing, OTA management, demand forecasting and weekly revenue reporting for hotels, resorts, villas and homestays in India.</p>
+
+          <div class="hero-ctas">
+            <a class="btn btn-gold btn-lg" href="#get-plan" data-cta="hero" data-magnetic>
+              Get a Free Revenue Plan
+              <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="btn btn-glass btn-wa" href="https://wa.me/919653128482?text=Hi%20RevAlpha%2C%20I%27d%20like%20to%20know%20more%20about%20hotel%20revenue%20management." target="_blank" rel="noopener" data-wa data-location="hero">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+              WhatsApp Us Now
+            </a>
+            <a class="link-call" href="tel:+918655556688" data-track="call" data-location="hero">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+              Call +91 8655556688
+            </a>
+          </div>
+
+          <ul class="trust" role="list" aria-label="About RevAlpha">
+            <li><span>Powered by <strong>Hospitality Minds</strong></span></li>
+            <li><span><strong>800+</strong> hotels marketed</span></li>
+            <li><span><strong>48</strong> cities</span></li>
+            <li><span><strong>4</strong> countries</span></li>
+          </ul>
+
+          <!-- Animated, illustrative dashboard. Figures = "Typical first-quarter results — illustrative" -->
+          <figure class="dash" aria-label="Illustrative revenue dashboard: room nights +12%, ADR +8%, YoY growth +10%">
+            <div class="dash-head" aria-hidden="true">
+              <span class="dash-title"><span class="dash-live"></span>RevPAR</span>
+              <span class="dash-tabs"><span>Occupancy</span><span>ADR</span><span class="is-on">RevPAR</span></span>
+            </div>
+            <div class="dash-body">
+              <svg class="dash-chart" viewBox="0 0 410 150" aria-hidden="true" focusable="false">
+                <defs>
+                  <linearGradient id="dashArea" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#d9b85c" stop-opacity=".42"/>
+                    <stop offset="1" stop-color="#d9b85c" stop-opacity="0"/>
+                  </linearGradient>
+                  <linearGradient id="dashLine" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0" stop-color="#b8913a"/>
+                    <stop offset=".6" stop-color="#ecd590"/>
+                    <stop offset="1" stop-color="#fff3c9"/>
+                  </linearGradient>
+                </defs>
+                <g class="dash-grid" stroke="rgba(255,255,255,.08)" stroke-width="1">
+                  <path d="M0 30H410M0 70H410M0 110H410"/>
+                </g>
+                <g class="dash-bars">
+                  <rect x="8" y="104" width="22" height="46" rx="5" style="--i:0"/>
+                  <rect x="42" y="98" width="22" height="52" rx="5" style="--i:1"/>
+                  <rect x="76" y="108" width="22" height="42" rx="5" style="--i:2"/>
+                  <rect x="110" y="90" width="22" height="60" rx="5" style="--i:3"/>
+                  <rect x="144" y="94" width="22" height="56" rx="5" style="--i:4"/>
+                  <rect x="178" y="80" width="22" height="70" rx="5" style="--i:5"/>
+                  <rect x="212" y="84" width="22" height="66" rx="5" style="--i:6"/>
+                  <rect x="246" y="70" width="22" height="80" rx="5" style="--i:7"/>
+                  <rect x="280" y="62" width="22" height="88" rx="5" style="--i:8"/>
+                  <rect x="314" y="54" width="22" height="96" rx="5" style="--i:9"/>
+                  <rect x="348" y="46" width="22" height="104" rx="5" style="--i:10"/>
+                  <rect x="382" y="36" width="22" height="114" rx="5" style="--i:11"/>
+                </g>
+                <path class="dash-base" d="M0 118 C 60 116, 120 113, 200 110 S 340 106, 405 104" fill="none" stroke="rgba(255,255,255,.28)" stroke-width="1.5" stroke-dasharray="4 5"/>
+                <path class="dash-area" d="M0 116 C 30 112, 50 104, 80 106 S 130 94, 160 92 S 210 80, 240 76 S 290 62, 320 52 S 370 32, 405 20 L405 150 L0 150 Z" fill="url(#dashArea)"/>
+                <path class="dash-line" d="M0 116 C 30 112, 50 104, 80 106 S 130 94, 160 92 S 210 80, 240 76 S 290 62, 320 52 S 370 32, 405 20" pathLength="1" fill="none" stroke="url(#dashLine)" stroke-width="3" stroke-linecap="round"/>
+                <circle class="dash-end-halo" cx="405" cy="20" r="10" fill="#d9b85c" opacity=".25"/>
+                <circle class="dash-end" cx="405" cy="20" r="4.5" fill="#fff3c9"/>
+              </svg>
+              <ul class="dash-kpis" role="list">
+                <li class="kpi"><span class="kpi-label">Room nights</span><span class="kpi-val"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg>+12%</span></li>
+                <li class="kpi"><span class="kpi-label">ADR</span><span class="kpi-val"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg>+8%</span></li>
+                <li class="kpi"><span class="kpi-label">YoY growth</span><span class="kpi-val"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg>+10%</span></li>
+              </ul>
+            </div>
+            <figcaption class="dash-note">Typical first-quarter results — illustrative</figcaption>
+          </figure>
+        </div>
+
+        <!-- Desktop above-the-fold lead form (hidden < 1024px; mobile uses the main form) -->
+        <aside class="hero-panel" aria-labelledby="hero-form-title">
+          <div class="form-card form-card--glass" data-form-wrap>
+            <h2 class="form-title" id="hero-form-title">Get a Free Revenue Plan</h2>
+            <p class="form-lede">Tell us about your hotel and get a no-obligation revenue-management recommendation within 1 day.</p>
+            <ul class="assure" role="list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>No obligation</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Honest recommendation</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Reply within a day</li>
+            </ul>
+
+            <!-- REPLACE: form endpoint is set in CONFIG.formEndpoint (script.js). The action below is the no-JS fallback. -->
+            <form class="lead-form lead-form--compact" action="https://formspree.io/f/your-form-id" method="post" novalidate data-lead-form data-location="hero">
+              <div class="form-error-summary" role="alert" aria-live="assertive" data-summary hidden></div>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="hf-name">Name</label>
+                  <input id="hf-name" name="full_name" type="text" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="hf-name-err">
+                  <p class="field-error" id="hf-name-err"></p>
+                </div>
+                <div class="field">
+                  <label for="hf-hotel">Hotel Name</label>
+                  <input id="hf-hotel" name="property_name" type="text" autocomplete="organization" required minlength="2" maxlength="120" aria-describedby="hf-hotel-err">
+                  <p class="field-error" id="hf-hotel-err"></p>
+                </div>
+                <div class="field">
+                  <label for="hf-city">City</label>
+                  <input id="hf-city" name="city" type="text" autocomplete="address-level2" required minlength="2" maxlength="60" aria-describedby="hf-city-err">
+                  <p class="field-error" id="hf-city-err"></p>
+                </div>
+                <div class="field">
+                  <label for="hf-type">Property Type</label>
+                  <select id="hf-type" name="property_type" required aria-describedby="hf-type-err">
+                    <option value="" selected disabled>Select</option>
+                    <option>Hotel</option>
+                    <option>Resort</option>
+                    <option>Boutique Hotel</option>
+                    <option>Villa</option>
+                    <option>Homestay</option>
+                    <option>Serviced Apartment</option>
+                    <option>Hotel Group</option>
+                  </select>
+                  <p class="field-error" id="hf-type-err"></p>
+                </div>
+                <div class="field">
+                  <label for="hf-phone">Phone/WhatsApp</label>
+                  <input id="hf-phone" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" required maxlength="18" aria-describedby="hf-phone-err">
+                  <p class="field-error" id="hf-phone-err"></p>
+                </div>
+                <div class="field">
+                  <label for="hf-rooms">Monthly Rooms</label>
+                  <input id="hf-rooms" name="rooms" type="number" inputmode="numeric" min="1" max="100000" step="1" required aria-describedby="hf-rooms-err">
+                  <p class="field-error" id="hf-rooms-err"></p>
+                </div>
+                <div class="field field--full">
+                  <label for="hf-challenge">Main Challenge</label>
+                  <select id="hf-challenge" name="challenge" required aria-describedby="hf-challenge-err">
+                    <option value="" selected disabled>Select</option>
+                    <option>Low occupancy</option>
+                    <option>Low rates/ADR</option>
+                    <option>OTA visibility</option>
+                    <option>No revenue reporting</option>
+                    <option>Need OTA onboarding</option>
+                    <option>Technology setup</option>
+                    <option>Other</option>
+                  </select>
+                  <p class="field-error" id="hf-challenge-err"></p>
+                </div>
+              </div>
+
+              <!-- Spam protection: honeypot (bots fill it, humans never see it) -->
+              <div class="hp" aria-hidden="true">
+                <label for="hf-website">Website</label>
+                <input id="hf-website" name="website" type="text" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="consent-wrap">
+                <label class="consent" for="hf-consent">
+                  <input id="hf-consent" name="consent" type="checkbox" value="yes" required aria-describedby="hf-consent-err">
+                  <span>I agree to be contacted by RevAlpha via WhatsApp, call and email about my property.</span>
+                </label>
+                <p class="field-error" id="hf-consent-err"></p>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn btn-gold btn-lg btn-block" type="submit" data-submit>
+                  <span class="btn-label">Get a Free Revenue Plan</span>
+                  <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                  <span class="spinner" aria-hidden="true"></span>
+                </button>
+                <p class="form-foot"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>Your details open in WhatsApp, ready to send.</p>
+              </div>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Services ticker (decorative; full list is in the Services section) -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Dynamic Pricing</span><i>◆</i><span>Demand Forecasting</span><i>◆</i><span>OTA Listing &amp; Onboarding</span><i>◆</i><span>Competitor Intelligence</span><i>◆</i><span>Rate Integrity</span><i>◆</i><span>Weekly Reporting</span><i>◆</i><span>Hotel Technology Advisory</span><i>◆</i><span>Dedicated Revenue Manager</span><i>◆</i>
+        <span>Dynamic Pricing</span><i>◆</i><span>Demand Forecasting</span><i>◆</i><span>OTA Listing &amp; Onboarding</span><i>◆</i><span>Competitor Intelligence</span><i>◆</i><span>Rate Integrity</span><i>◆</i><span>Weekly Reporting</span><i>◆</i><span>Hotel Technology Advisory</span><i>◆</i><span>Dedicated Revenue Manager</span><i>◆</i>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         2. PROBLEMS
+         ==================================================================== -->
+    <section class="section section--paper problems" id="problems" aria-labelledby="problems-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--gold" data-reveal>The problem</p>
+          <h2 class="section-title" id="problems-title" data-reveal style="--d:1">Are these revenue problems costing your hotel money?</h2>
+        </header>
+
+        <ol class="problem-grid" role="list">
+          <li class="problem-card" data-reveal style="--d:0">
+            <span class="problem-num">01</span>
+            <span class="problem-icon"><svg class="icon" aria-hidden="true"><use href="#i-tag"/></svg></span>
+            <p>Selling rooms too cheap on high-demand dates</p>
+            <span class="leak" aria-hidden="true"></span>
+          </li>
+          <li class="problem-card" data-reveal style="--d:1">
+            <span class="problem-num">02</span>
+            <span class="problem-icon"><svg class="icon" aria-hidden="true"><use href="#i-bed"/></svg></span>
+            <p>Empty rooms during low-demand periods</p>
+            <span class="leak" aria-hidden="true"></span>
+          </li>
+          <li class="problem-card" data-reveal style="--d:2">
+            <span class="problem-num">03</span>
+            <span class="problem-icon"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg></span>
+            <p>OTA listings not properly optimised</p>
+            <span class="leak" aria-hidden="true"></span>
+          </li>
+          <li class="problem-card" data-reveal style="--d:0">
+            <span class="problem-num">04</span>
+            <span class="problem-icon"><svg class="icon" aria-hidden="true"><use href="#i-eye-off"/></svg></span>
+            <p>No clear view of ADR, occupancy, RevPAR and channel performance</p>
+            <span class="leak" aria-hidden="true"></span>
+          </li>
+          <li class="problem-card" data-reveal style="--d:1">
+            <span class="problem-num">05</span>
+            <span class="problem-icon"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg></span>
+            <p>Manual rate updates and inconsistent pricing</p>
+            <span class="leak" aria-hidden="true"></span>
+          </li>
+          <li class="problem-card" data-reveal style="--d:2">
+            <span class="problem-num">06</span>
+            <span class="problem-icon"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></span>
+            <p>No strategy for weekends, festivals, events and seasonal demand</p>
+            <span class="leak" aria-hidden="true"></span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         3. SERVICES
+         ==================================================================== -->
+    <section class="section section--navy services" id="services" aria-labelledby="services-title">
+      <div class="mesh mesh--services" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-head section-head--split">
+          <div>
+            <p class="eyebrow eyebrow--light" data-reveal>Services</p>
+            <h2 class="section-title section-title--light" id="services-title" data-reveal style="--d:1">Complete revenue management for hotels</h2>
+          </div>
+          <a class="btn btn-glass" href="#get-plan" data-cta="services" data-reveal style="--d:2">
+            Get a Free Revenue Plan
+            <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </header>
+
+        <ul class="service-grid" role="list">
+          <li class="service-card" data-reveal data-spotlight style="--d:0">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-trend"/></svg></span>
+            <h3>Dynamic Pricing</h3>
+            <p>Demand-led room rates every day.</p>
+            <span class="service-index" aria-hidden="true">01</span>
+          </li>
+          <li class="service-card" data-reveal data-spotlight style="--d:1">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-forecast"/></svg></span>
+            <h3>Demand Forecasting</h3>
+            <p>Plan for seasons, events, festivals and booking pace.</p>
+            <span class="service-index" aria-hidden="true">02</span>
+          </li>
+          <li class="service-card" data-reveal data-spotlight style="--d:2">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg></span>
+            <h3>OTA Listing &amp; Onboarding</h3>
+            <p>Optimised listings for Booking.com, MakeMyTrip, Agoda and Airbnb.</p>
+            <span class="service-index" aria-hidden="true">03</span>
+          </li>
+          <li class="service-card" data-reveal data-spotlight style="--d:3">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-radar"/></svg></span>
+            <h3>Competitor Intelligence</h3>
+            <p>Track market rates, occupancy signals and competitor positioning.</p>
+            <span class="service-index" aria-hidden="true">04</span>
+          </li>
+          <li class="service-card" data-reveal data-spotlight style="--d:0">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></span>
+            <h3>Rate Integrity</h3>
+            <p>Protect brand value and prevent unnecessary discounting.</p>
+            <span class="service-index" aria-hidden="true">05</span>
+          </li>
+          <li class="service-card" data-reveal data-spotlight style="--d:1">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-report"/></svg></span>
+            <h3>Weekly Reporting</h3>
+            <p>Clear updates on occupancy, ADR, RevPAR, pickup and revenue opportunities.</p>
+            <span class="service-index" aria-hidden="true">06</span>
+          </li>
+          <li class="service-card" data-reveal data-spotlight style="--d:2">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-chip"/></svg></span>
+            <h3>Hotel Technology Advisory</h3>
+            <p>Vendor-neutral advice on channel managers, PMS and booking engines.</p>
+            <span class="service-index" aria-hidden="true">07</span>
+          </li>
+          <li class="service-card" data-reveal data-spotlight style="--d:3">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-manager"/></svg></span>
+            <h3>Dedicated Revenue Manager</h3>
+            <p>A specialist team that monitors and acts on revenue opportunities.</p>
+            <span class="service-index" aria-hidden="true">08</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         4. PROPERTY TYPES (ARIA tabs)
+         REPLACE: images are RevAlpha's own photos from revalpha.co
+         ==================================================================== -->
+    <section class="section section--ivory types" id="hotel-types" aria-labelledby="types-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--gold" data-reveal>Hotel types</p>
+          <h2 class="section-title" id="types-title" data-reveal style="--d:1">Revenue strategy for every type of hotel.</h2>
+        </header>
+
+        <div class="tabs" data-tabs data-reveal style="--d:2">
+          <div class="tablist" role="tablist" aria-label="Property types">
+            <button class="tab" role="tab" id="tab-resort" aria-controls="panel-resort" aria-selected="true">Resort &amp; Leisure Hotel</button>
+            <button class="tab" role="tab" id="tab-business" aria-controls="panel-business" aria-selected="false" tabindex="-1">Business Hotel</button>
+            <button class="tab" role="tab" id="tab-boutique" aria-controls="panel-boutique" aria-selected="false" tabindex="-1">Boutique Hotel</button>
+            <button class="tab" role="tab" id="tab-luxury" aria-controls="panel-luxury" aria-selected="false" tabindex="-1">Premium &amp; Luxury Hotel</button>
+            <button class="tab" role="tab" id="tab-serviced" aria-controls="panel-serviced" aria-selected="false" tabindex="-1">Serviced Apartment</button>
+            <button class="tab" role="tab" id="tab-villas" aria-controls="panel-villas" aria-selected="false" tabindex="-1">Villas &amp; Homestays</button>
+            <button class="tab" role="tab" id="tab-budget" aria-controls="panel-budget" aria-selected="false" tabindex="-1">Budget Hotel</button>
+            <button class="tab" role="tab" id="tab-groups" aria-controls="panel-groups" aria-selected="false" tabindex="-1">Hotel Groups</button>
+          </div>
+
+          <div class="panels">
+            <div class="panel is-active" role="tabpanel" id="panel-resort" aria-labelledby="tab-resort" tabindex="0">
+              <div class="panel-media"><img src="https://revalpha.co/assets/images/Solutions/resort.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Guests relaxing by a resort pool in India: revenue management for resorts"></div>
+              <div class="panel-copy">
+                <span class="panel-count">01 / 08</span>
+                <h3>Resort &amp; Leisure Hotel</h3>
+                <p>Seasonal and weekend demand, leisure OTA visibility.</p>
+                <a class="btn btn-light" href="#get-plan" data-cta="types" data-prefill-type="Resort">Get a Free Revenue Plan <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+            <div class="panel" role="tabpanel" id="panel-business" aria-labelledby="tab-business" tabindex="0" hidden>
+              <div class="panel-media"><img src="https://revalpha.co/assets/images/Solutions/business.webp" width="1920" height="1079" loading="lazy" decoding="async" alt="Business hotel room with a city view at sunset"></div>
+              <div class="panel-copy">
+                <span class="panel-count">02 / 08</span>
+                <h3>Business Hotel</h3>
+                <p>Corporate demand, city events, weekday occupancy.</p>
+                <a class="btn btn-light" href="#get-plan" data-cta="types" data-prefill-type="Hotel">Get a Free Revenue Plan <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+            <div class="panel" role="tabpanel" id="panel-boutique" aria-labelledby="tab-boutique" tabindex="0" hidden>
+              <div class="panel-media"><img src="https://revalpha.co/assets/images/Solutions/boutique.webp" width="1920" height="1081" loading="lazy" decoding="async" alt="Heritage-style boutique hotel courtyard with a tiled roof"></div>
+              <div class="panel-copy">
+                <span class="panel-count">03 / 08</span>
+                <h3>Boutique Hotel</h3>
+                <p>Premium positioning, rate protection, direct bookings.</p>
+                <a class="btn btn-light" href="#get-plan" data-cta="types" data-prefill-type="Boutique Hotel">Get a Free Revenue Plan <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+            <div class="panel" role="tabpanel" id="panel-luxury" aria-labelledby="tab-luxury" tabindex="0" hidden>
+              <div class="panel-media"><img src="https://revalpha.co/assets/images/Solutions/luxury.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Luxury hotel pool and facade lit at dusk"></div>
+              <div class="panel-copy">
+                <span class="panel-count">04 / 08</span>
+                <h3>Premium &amp; Luxury Hotel</h3>
+                <p>Rate integrity, ADR and RevPAR growth.</p>
+                <a class="btn btn-light" href="#get-plan" data-cta="types" data-prefill-type="Hotel">Get a Free Revenue Plan <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+            <div class="panel" role="tabpanel" id="panel-serviced" aria-labelledby="tab-serviced" tabindex="0" hidden>
+              <div class="panel-media"><img src="https://revalpha.co/assets/images/Solutions/serviced.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Bright serviced apartment living room with a guest working on a laptop"></div>
+              <div class="panel-copy">
+                <span class="panel-count">05 / 08</span>
+                <h3>Serviced Apartment</h3>
+                <p>Daily, weekly and monthly length-of-stay pricing.</p>
+                <a class="btn btn-light" href="#get-plan" data-cta="types" data-prefill-type="Serviced Apartment">Get a Free Revenue Plan <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+            <div class="panel" role="tabpanel" id="panel-villas" aria-labelledby="tab-villas" tabindex="0" hidden>
+              <div class="panel-media"><img src="https://revalpha.co/assets/images/Solutions/villas.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Private pool villa in India: Airbnb listing management and OTA pricing"></div>
+              <div class="panel-copy">
+                <span class="panel-count">06 / 08</span>
+                <h3>Villas &amp; Homestays</h3>
+                <p>Airbnb/OTA listings and calendar-filling pricing.</p>
+                <a class="btn btn-light" href="#get-plan" data-cta="types" data-prefill-type="Villa">Get a Free Revenue Plan <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+            <div class="panel" role="tabpanel" id="panel-budget" aria-labelledby="tab-budget" tabindex="0" hidden>
+              <div class="panel-media"><img src="https://revalpha.co/assets/images/Solutions/budget.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Clean, simple budget hotel room with a double bed"></div>
+              <div class="panel-copy">
+                <span class="panel-count">07 / 08</span>
+                <h3>Budget Hotel</h3>
+                <p>OTA setup, rate setup and simple promotions for 10–20 room properties.</p>
+                <a class="btn btn-light" href="#get-plan" data-cta="types" data-prefill-type="Hotel">Get a Free Revenue Plan <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+            <div class="panel" role="tabpanel" id="panel-groups" aria-labelledby="tab-groups" tabindex="0" hidden>
+              <div class="panel-media"><img src="https://revalpha.co/assets/images/Solutions/group.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Hotel team in uniform at a property entrance"></div>
+              <div class="panel-copy">
+                <span class="panel-count">08 / 08</span>
+                <h3>Hotel Groups</h3>
+                <p>Portfolio reporting and one revenue strategy across properties.</p>
+                <a class="btn btn-light" href="#get-plan" data-cta="types" data-prefill-type="Hotel Group">Get a Free Revenue Plan <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         5. RESULTS / PROOF
+         ==================================================================== -->
+    <section class="section section--deep results" id="results" aria-labelledby="results-title">
+      <div class="mesh mesh--results" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-head section-head--center">
+          <p class="eyebrow eyebrow--light" data-reveal>Results</p>
+          <h2 class="section-title section-title--light" id="results-title" data-reveal style="--d:1">What better revenue management can unlock.</h2>
+          <p class="results-label" data-reveal style="--d:2">Typical first-quarter results — illustrative</p>
+        </header>
+
+        <ul class="stats" role="list">
+          <li class="stat" data-reveal style="--d:0">
+            <span class="stat-num" data-count="12" data-prefix="+" data-suffix="%">+12%</span>
+            <span class="stat-label">Room nights</span>
+            <span class="stat-bar" aria-hidden="true"><span style="--w:.62"></span></span>
+          </li>
+          <li class="stat" data-reveal style="--d:1">
+            <span class="stat-num" data-count="8" data-prefix="+" data-suffix="%">+8%</span>
+            <span class="stat-label">ADR</span>
+            <span class="stat-bar" aria-hidden="true"><span style="--w:.46"></span></span>
+          </li>
+          <li class="stat" data-reveal style="--d:2">
+            <span class="stat-num" data-count="10" data-prefix="+" data-suffix="%">+10%</span>
+            <span class="stat-label">YoY growth</span>
+            <span class="stat-bar" aria-hidden="true"><span style="--w:.54"></span></span>
+          </li>
+          <li class="stat stat--text" data-reveal style="--d:3">
+            <span class="stat-num stat-num--text">Weekly / Monthly</span>
+            <span class="stat-label">Reporting cycle</span>
+            <span class="stat-bar" aria-hidden="true"><span style="--w:1"></span></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         6. WHY REVALPHA
+         ==================================================================== -->
+    <section class="section section--paper why" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--gold" data-reveal>Why RevAlpha</p>
+          <h2 class="section-title" id="why-title" data-reveal style="--d:1">Why hotels choose RevAlpha.</h2>
+        </header>
+
+        <ol class="steps" role="list" data-steps>
+          <li class="step" data-reveal style="--d:0">
+            <span class="step-num">01</span>
+            <h3>Understand</h3>
+            <p>We review demand, pickup, competitor rates and local dates.</p>
+          </li>
+          <li class="step" data-reveal style="--d:2">
+            <span class="step-num">02</span>
+            <h3>Optimise</h3>
+            <p>We set the right price, channel, offer and timing.</p>
+          </li>
+          <li class="step" data-reveal style="--d:4">
+            <span class="step-num">03</span>
+            <h3>Grow</h3>
+            <p>You receive clear weekly reporting and actionable revenue recommendations.</p>
+          </li>
+        </ol>
+
+        <div class="why-split">
+          <figure class="why-media" data-reveal="clip">
+            <!-- REPLACE (optional): team photo from revalpha.co -->
+            <img src="https://revalpha.co/assets/images/Hero/team.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="The RevAlpha and Hospitality Minds team, hotel revenue consultants in India, together in the office" data-parallax="0.08">
+          </figure>
+          <ul class="benefits" role="list">
+            <li data-reveal style="--d:0"><span class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>Stop selling too cheap</li>
+            <li data-reveal style="--d:1"><span class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>Fill weak dates intelligently</li>
+            <li data-reveal style="--d:2"><span class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>Know where revenue comes from</li>
+            <li data-reveal style="--d:3"><span class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>Get vendor-neutral technology advice</li>
+            <li data-reveal style="--d:4"><span class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>Save owner/front-office time</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         7. LEAD CAPTURE
+         ==================================================================== -->
+    <section class="section section--navy lead" id="get-plan" aria-labelledby="lead-title" data-lead-section>
+      <div class="mesh mesh--lead" aria-hidden="true"></div>
+      <div class="container lead-grid">
+        <div class="lead-copy">
+          <p class="eyebrow eyebrow--light" data-reveal>Free revenue plan</p>
+          <h2 class="section-title section-title--light" id="lead-title" data-reveal style="--d:1">See what your property could be earning.</h2>
+          <p class="lead-offer" data-reveal style="--d:2">Tell us about your hotel and get a no-obligation revenue-management recommendation within 1 day.</p>
+          <ul class="assure assure--lg" role="list" data-reveal style="--d:3">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>No obligation</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Honest recommendation</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Reply within a day</li>
+          </ul>
+          <ul class="contact-list" role="list" data-reveal style="--d:4">
+            <li>
+              <a href="tel:+918655556688" data-track="call" data-location="lead">
+                <span class="contact-ico"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+                <span>Call +91 8655556688</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/919653128482?text=Hi%20RevAlpha%2C%20I%27d%20like%20to%20know%20more%20about%20hotel%20revenue%20management." target="_blank" rel="noopener" data-wa data-location="lead">
+                <span class="contact-ico contact-ico--wa"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg></span>
+                <span>WhatsApp Us Now</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:nilesh@hospitalityminds.com" data-track="email" data-location="lead">
+                <span class="contact-ico"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></span>
+                <span>nilesh@hospitalityminds.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-card form-card--light" data-form-wrap data-reveal style="--d:2">
+          <!-- REPLACE: form endpoint is set in CONFIG.formEndpoint (script.js). The action below is the no-JS fallback. -->
+          <form class="lead-form lead-form--light" action="https://formspree.io/f/your-form-id" method="post" novalidate data-lead-form data-location="lead_section" aria-labelledby="lead-title">
+            <div class="form-error-summary" role="alert" aria-live="assertive" data-summary hidden></div>
+            <div class="form-grid">
+              <div class="field">
+                <label for="lf-name">Full Name</label>
+                <input id="lf-name" name="full_name" type="text" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="lf-name-err">
+                <p class="field-error" id="lf-name-err"></p>
+              </div>
+              <div class="field">
+                <label for="lf-hotel">Hotel / Property Name</label>
+                <input id="lf-hotel" name="property_name" type="text" autocomplete="organization" required minlength="2" maxlength="120" aria-describedby="lf-hotel-err">
+                <p class="field-error" id="lf-hotel-err"></p>
+              </div>
+              <div class="field">
+                <label for="lf-city">City</label>
+                <input id="lf-city" name="city" type="text" autocomplete="address-level2" required minlength="2" maxlength="60" aria-describedby="lf-city-err">
+                <p class="field-error" id="lf-city-err"></p>
+              </div>
+              <div class="field">
+                <label for="lf-type">Property Type</label>
+                <select id="lf-type" name="property_type" required aria-describedby="lf-type-err">
+                  <option value="" selected disabled>Select</option>
+                  <option>Hotel</option>
+                  <option>Resort</option>
+                  <option>Boutique Hotel</option>
+                  <option>Villa</option>
+                  <option>Homestay</option>
+                  <option>Serviced Apartment</option>
+                  <option>Hotel Group</option>
+                </select>
+                <p class="field-error" id="lf-type-err"></p>
+              </div>
+              <div class="field">
+                <label for="lf-rooms">Number of Rooms</label>
+                <input id="lf-rooms" name="rooms" type="number" inputmode="numeric" min="1" max="100000" step="1" required aria-describedby="lf-rooms-err">
+                <p class="field-error" id="lf-rooms-err"></p>
+              </div>
+              <div class="field">
+                <label for="lf-phone">WhatsApp Number</label>
+                <input id="lf-phone" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" required maxlength="18" aria-describedby="lf-phone-err">
+                <p class="field-error" id="lf-phone-err"></p>
+              </div>
+              <div class="field field--full">
+                <label for="lf-challenge">Main Challenge</label>
+                <select id="lf-challenge" name="challenge" required aria-describedby="lf-challenge-err">
+                  <option value="" selected disabled>Select</option>
+                  <option>Low occupancy</option>
+                  <option>Low rates/ADR</option>
+                  <option>OTA visibility</option>
+                  <option>No revenue reporting</option>
+                  <option>Need OTA onboarding</option>
+                  <option>Technology setup</option>
+                  <option>Other</option>
+                </select>
+                <p class="field-error" id="lf-challenge-err"></p>
+              </div>
+              <div class="field field--full">
+                <label for="lf-message">Message <span class="opt">(optional)</span></label>
+                <textarea id="lf-message" name="message" rows="3" maxlength="1000"></textarea>
+              </div>
+            </div>
+
+            <!-- Spam protection: honeypot -->
+            <div class="hp" aria-hidden="true">
+              <label for="lf-website">Website</label>
+              <input id="lf-website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="consent-wrap">
+              <label class="consent" for="lf-consent">
+                <input id="lf-consent" name="consent" type="checkbox" value="yes" required aria-describedby="lf-consent-err">
+                <span>I agree to be contacted by RevAlpha via WhatsApp, call and email about my property.</span>
+              </label>
+              <p class="field-error" id="lf-consent-err"></p>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-gold btn-lg btn-block" type="submit" data-submit data-magnetic>
+                <span class="btn-label">Get My Free Revenue Plan</span>
+                <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                <span class="spinner" aria-hidden="true"></span>
+              </button>
+              <p class="form-foot"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>Your details open in WhatsApp, ready to send.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         8. FAQ (accessible accordion)
+         ==================================================================== -->
+    <section class="section section--ivory faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-grid">
+        <header class="section-head faq-head">
+          <p class="eyebrow eyebrow--gold" data-reveal>FAQ</p>
+          <h2 class="section-title" id="faq-title" data-reveal style="--d:1">Frequently asked questions</h2>
+        </header>
+
+        <div class="accordion" data-accordion>
+          <div class="acc-item" data-reveal style="--d:0">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" id="faq-q1" aria-expanded="false" aria-controls="faq-a1">
+                <span>What is hotel revenue management?</span>
+                <span class="acc-icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a1" role="region" aria-labelledby="faq-q1" hidden>
+              <div class="acc-inner"><p>Hotel revenue management means selling the right room, to the right guest, at the right price, through the right channel and at the right time. In practice that covers dynamic pricing for hotels, OTA management, demand forecasting for seasons, festivals and events, and tracking ADR, occupancy and RevPAR, so every rate decision is backed by data. RevAlpha does this for you as an outsourced revenue management team.</p></div>
+            </div>
+          </div>
+          <div class="acc-item" data-reveal style="--d:1">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">
+                <span>Do you work with small hotels and homestays?</span>
+                <span class="acc-icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden>
+              <div class="acc-inner"><p>Yes. Alongside resorts, boutique hotels and hotel groups, we work with budget hotels of 10–20 rooms, villas and homestays. For smaller properties we focus on OTA setup, rate setup, Airbnb and OTA listing management and simple promotions that help fill your calendar.</p></div>
+            </div>
+          </div>
+          <div class="acc-item" data-reveal style="--d:2">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">
+                <span>Which OTAs do you support?</span>
+                <span class="acc-icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden>
+              <div class="acc-inner"><p>We optimise and manage listings on Booking.com, MakeMyTrip, Agoda and Airbnb, along with other major channels such as Expedia, Goibibo, Cleartrip and Google Hotels. If your property is not live yet, our OTA listing and onboarding service sets it up correctly from the start.</p></div>
+            </div>
+          </div>
+          <div class="acc-item" data-reveal style="--d:3">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">
+                <span>How quickly can we start?</span>
+                <span class="acc-icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden>
+              <div class="acc-inner"><p>Share your details through the form or on WhatsApp and our revenue team will reply within one business day with a no-obligation recommendation. Once you decide to go ahead, we confirm an onboarding plan based on your property, your channels and your current technology setup.</p></div>
+            </div>
+          </div>
+          <div class="acc-item" data-reveal style="--d:4">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">
+                <span>Do you guarantee results?</span>
+                <span class="acc-icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a5" role="region" aria-labelledby="faq-q5" hidden>
+              <div class="acc-inner"><p>No, and be careful of anyone who does. Revenue depends on your market, product, reviews and demand. What we commit to is a disciplined process: demand-led pricing, active OTA management and clear weekly reporting, so you can see exactly what is changing and why. The figures on this page are typical first-quarter results and are illustrative, not a promise.</p></div>
+            </div>
+          </div>
+          <div class="acc-item" data-reveal style="--d:5">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" id="faq-q6" aria-expanded="false" aria-controls="faq-a6">
+                <span>What does the free revenue plan include?</span>
+                <span class="acc-icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a6" role="region" aria-labelledby="faq-q6" hidden>
+              <div class="acc-inner"><p>Based on what you tell us about your property, our revenue team sends an honest, no-obligation recommendation: where you are likely losing revenue (pricing, OTA visibility, channel mix or reporting), what to fix first, and which RevAlpha plan fits: Express Setup, Standard, Gold or Platinum.</p></div>
+            </div>
+          </div>
+          <div class="acc-item" data-reveal style="--d:6">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" id="faq-q7" aria-expanded="false" aria-controls="faq-a7">
+                <span>Do you work with hotels outside Mumbai?</span>
+                <span class="acc-icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a7" role="region" aria-labelledby="faq-q7" hidden>
+              <div class="acc-inner"><p>Yes. We are based in Mumbai and work with hotels, resorts, villas and homestays across India. Hospitality Minds has marketed 800+ hotels across 48 cities in 4 countries.</p></div>
+            </div>
+          </div>
+          <div class="acc-item" data-reveal style="--d:7">
+            <h3 class="acc-heading">
+              <button class="acc-trigger" id="faq-q8" aria-expanded="false" aria-controls="faq-a8">
+                <span>Can you help with channel manager and booking-engine selection?</span>
+                <span class="acc-icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a8" role="region" aria-labelledby="faq-q8" hidden>
+              <div class="acc-inner"><p>Yes. Our hotel technology advisory is vendor-neutral: we help you choose and set up the right channel manager, PMS and booking engine for your property, so your rates and inventory stay in sync across every channel.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         9. FINAL CTA
+         ==================================================================== -->
+    <section class="final" aria-labelledby="final-title">
+      <div class="final-media" aria-hidden="true">
+        <!-- REPLACE (optional): background image -->
+        <img src="https://revalpha.co/assets/images/Solutions/villas.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="" data-parallax="0.12">
+      </div>
+      <div class="grain" aria-hidden="true"></div>
+      <div class="container final-inner">
+        <p class="kicker" data-reveal>Your rooms are fixed. Your revenue shouldn’t be.</p>
+        <h2 class="final-title" id="final-title" data-reveal style="--d:1">Stop leaving revenue on the table.</h2>
+        <div class="final-ctas" data-reveal style="--d:2">
+          <a class="btn btn-gold btn-lg" href="#get-plan" data-cta="final" data-magnetic>
+            Get a Free Revenue Plan
+            <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+          <a class="btn btn-glass btn-wa" href="https://wa.me/919653128482?text=Hi%20RevAlpha%2C%20I%27d%20like%20to%20know%20more%20about%20hotel%20revenue%20management." target="_blank" rel="noopener" data-wa data-location="final">
+            <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+            WhatsApp Us Now
+          </a>
+        </div>
+        <ul class="final-contacts" role="list" data-reveal style="--d:3">
+          <li><a href="tel:+918655556688" data-track="call" data-location="final"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>+91 8655556688</a></li>
+          <li><a href="mailto:nilesh@hospitalityminds.com" data-track="email" data-location="final"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>nilesh@hospitalityminds.com</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       10. FOOTER
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img class="footer-logo" src="https://revalpha.co/assets/img/logo-wordmark.png" width="784" height="203" alt="RevAlpha" loading="lazy" decoding="async">
+          <p class="footer-tag">Revenue intelligence for independent hotels.</p>
+          <p class="footer-powered">Powered by Hospitality Minds</p>
+          <!-- REPLACE: social profile URLs -->
+          <ul class="social" role="list">
+            <li><a href="https://www.linkedin.com/company/revalpha-hotel-revenue-intelligence/" target="_blank" rel="noopener" aria-label="RevAlpha on LinkedIn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+            <li><a href="https://www.instagram.com/revalpha.hotels/" target="_blank" rel="noopener" aria-label="RevAlpha on Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61594840647563" target="_blank" rel="noopener" aria-label="RevAlpha on Facebook"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg></a></li>
+          </ul>
+        </div>
+
+        <nav class="footer-col" aria-label="Footer">
+          <h2 class="footer-h">Explore</h2>
+          <ul role="list">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#hotel-types">Hotel types</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#why">Why RevAlpha</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h2 class="footer-h">Contact</h2>
+          <address>
+            <ul role="list" class="footer-contact">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>Star Plaza, 206, Mahatma Gandhi Rd, opposite Sanjay Restaurant, above MM Mithaiwala, Chinchpada, Borivali East, Mumbai, Maharashtra 400066</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+918655556688" data-track="call" data-location="footer">+91 8655556688</a></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg><a href="https://wa.me/919653128482?text=Hi%20RevAlpha%2C%20I%27d%20like%20to%20know%20more%20about%20hotel%20revenue%20management." target="_blank" rel="noopener" data-wa data-location="footer">WhatsApp Us Now</a></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:nilesh@hospitalityminds.com" data-track="email" data-location="footer">nilesh@hospitalityminds.com</a></li>
+            </ul>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Hospitality Minds Private Limited. All rights reserved.</p>
+        <!-- REPLACE: link to your real Privacy Policy and Terms pages -->
+        <ul role="list" class="legal">
+          <li><a href="/privacy-policy/">Privacy policy</a></li>
+          <li><a href="/terms/">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-mega" aria-hidden="true">RevAlpha</p>
+  </footer>
+
+  <!-- Sticky mobile CTA bar (appears after first scroll, hides near the form) -->
+  <div class="mobile-cta" data-mobile-cta>
+    <a class="btn btn-gold btn-block" href="#get-plan" data-cta="mobile_sticky">
+      Get Free Revenue Plan
+      <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+    </a>
+    <a class="mobile-cta-wa" href="https://wa.me/919653128482?text=Hi%20RevAlpha%2C%20I%27d%20like%20to%20know%20more%20about%20hotel%20revenue%20management." target="_blank" rel="noopener" aria-label="WhatsApp Us Now" data-wa data-location="mobile_sticky">
+      <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+    </a>
+  </div>
+
+  <!-- Floating contact buttons (WhatsApp + Call). Must stay AFTER .mobile-cta:
+       on phones the stack lifts above the sticky bar and drops its WhatsApp
+       button while the bar (which has its own WhatsApp icon) is showing. -->
+  <div class="fab" data-fab>
+    <a class="fab-btn fab-btn--wa" href="https://wa.me/919653128482?text=Hi%20RevAlpha%2C%20I%27d%20like%20to%20know%20more%20about%20hotel%20revenue%20management." target="_blank" rel="noopener" aria-label="WhatsApp Us Now" data-wa data-location="floating">
+      <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+      <span class="fab-tip" aria-hidden="true">WhatsApp Us Now</span>
+    </a>
+    <a class="fab-btn fab-btn--call" href="tel:+918655556688" aria-label="Call +91 8655556688" data-track="call" data-location="floating">
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+      <span class="fab-tip" aria-hidden="true">Call +91 8655556688</span>
+    </a>
+  </div>
+
+  <!-- Form success template (cloned into the form card after submit) -->
+  <template id="tpl-success">
+    <div class="form-success" tabindex="-1">
+      <svg class="success-check" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24" pathLength="1"/><path d="m15 27 7 7 15-16" pathLength="1"/></svg>
+      <p class="success-text">Thank you. Our revenue team will contact you within 1 business day.</p>
+      <!-- href is filled with the visitor's prefilled WhatsApp enquiry by script.js -->
+      <a class="btn btn-wa-solid" href="#" target="_blank" rel="noopener" data-success-wa>
+        <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+        Send on WhatsApp
+      </a>
+      <p class="success-note">If WhatsApp didn’t open, tap the button to send your details.</p>
+    </div>
+  </template>
+</body>
+</html>
